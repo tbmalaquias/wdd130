@@ -8,11 +8,11 @@ body {
 :root {
     --primary-color: #7192E1;
     --secondary-color: #1b1b1a;
-    --accent1-color: #CA3536;
-    --accent2-color: #d1b331;
+    --accent1-color: #d1b331;
+    --accent2-color: #ca3536;
 
-    --heading-font: '______', serif;
-    --paragraph-font: '_____', serif;
+    --heading-font: 'arial', serif;
+    --paragraph-font: 'verdana', serif;
 
     --nav-background-color: #7192e1;
     --nav-link-color: #d1b331;
