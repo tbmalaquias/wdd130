@@ -28,14 +28,14 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(9, 10, 10);
     padding: 1rem;
-    background-color: solid yellow
+    background-color: solid yellow;
     color: #161617;
     text-align: center;
 }
 
 aside img {
     width: 200px;
-    heigth: auto;
+    height: auto;
 }
 
 footer {
