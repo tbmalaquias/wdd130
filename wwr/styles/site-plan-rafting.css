@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Playfair+Display?query=playf);
+@import url('https://fonts.google.com/specimen/Playfair+Display?query=playf');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -20,7 +20,7 @@ body {
     --nav-hover-background-color: #ca3536;
     }
 
-h1, h2, h3, h4, h5, h6,{
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
