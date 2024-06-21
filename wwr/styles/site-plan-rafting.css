@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Playfair+Display?query=playf');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
