@@ -3,14 +3,43 @@ padding: 10px;}
 nav a {color: white;
 display: block;
 padding: 20px;}
-h1 {color: steelblue;}
-img {
+
+h1 {
+    color: steelblue;
+    text-align: center;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p {
-    padding: 10px;
+p { padding: 0;
+    text-align: center;}
+
+main {
+    max-width: 600px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(9, 10, 10);
+    padding: 1rem;
+    background-color: solid yellow
+    color: #161617;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    heigth: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 2px solid #333;
+    text-align: center;
 }
