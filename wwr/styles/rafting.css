@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #7192E1;
+    --secondary-color: #1b1b1a;
+    --accent1-color: #d1b331;
+    --accent2-color: #ca3536;
+
+    --heading-font: 'arial', serif;
+    --paragraph-font: 'verdana', serif;
+
+    --nav-background-color: #7192e1;
+    --nav-link-color: #d1b331;
+    --nav-hover-link-color: #1b1b1a;
+    --nav-hover-background-color: #ca3536;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    }
+
+    /* Hero Section Styles */
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Hero Heading (h1) */
+  .hero h1 {
+    position: absolute; /* Position heading absolutely within hero */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning for different screen sizes */
+    color: white; /* Assuming you want white text */
+    font-size: 50em; /* Adjust font size as needed */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Hero Article */
+  .hero article {
+    position: absolute; /* Position article absolutely within hero */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Stretch to the right */
+    padding: 40px; /* Add some padding for content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* Assuming you want white text */
+  }
+  
+  /* Image within Article */
+  .hero article img {
+    float: right; /* Float image to the right */
+    margin-left: 20px; /* Add margin for spacing */
+    width: 200px; /* Adjust image width as needed */
+  }
+  
+  /* Paragraph within Article */
+  .hero article p {
+    margin-bottom: 10px; /* Add some margin for spacing */
+  }
+  
+  
+    .hero h1 {
+      font-size: 3.5em; /* Adjust font size for smaller screens */
+    }
+  
+    .hero article {
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .hero article img {
+      width: 150px; /* Adjust image width for smaller screens */
+    }
+  
