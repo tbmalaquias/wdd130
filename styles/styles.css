@@ -52,6 +52,7 @@ main {
 
 aside {
     width: 20rem;
+    position: relative;
     margin: 1rem;
     text-align: center;
     grid-column: 1/2;
