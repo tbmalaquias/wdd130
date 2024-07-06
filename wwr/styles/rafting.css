@@ -15,10 +15,14 @@
     --nav-hover-background-color: #ca3536;
     }
 
-    .grid {
+    header {
       display: grid;
-      grid-template-columns: 200px 200px 200px;
-      
+      grid-template-columns: 20% 80%;
+      align-items: center;
+      background-color: var(--primary-color);
+      color: #fff;
+      max-width: 800px;
+      height: 15vh;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -28,9 +32,13 @@
 
     /* Hero Section Styles */
 .hero img {
-    display:block;
-    width: 100%;
-    height: auto;
+    border: thin #c0c0c0 solid;
+    display:flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto
+    
   }
   
   /* Hero Heading (h1) */
@@ -50,7 +58,7 @@
     bottom: 0; /* Position at the bottom */
     left: 0; /* Align to the left */
     right: 0.5px; /* Stretch to the right */
-    padding: 40px; /* Add some padding for content */
+    padding: 20px; /* Add some padding for content */
     background-color: rgba(0, 0, 0, 0.5);
     color: white; 
   }
@@ -59,7 +67,7 @@
   .hero article img {
     float: right; /* Float image to the right */
     margin-left: 20px; /* Add margin for spacing */
-    width: 200px; /* Adjust image width as needed */
+    width: 50px; /* Adjust image width as needed */
   }
   
   /* Paragraph within Article */
@@ -88,10 +96,9 @@
       border: thin #c0c0c0 solid;
       display: flex;
       flex-flow: column;
-      padding: 10px;
+      padding: 10px;  
       max-width: 800px;
       margin: auto;
-      
     }
     
       
