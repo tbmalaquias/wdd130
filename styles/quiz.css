@@ -10,23 +10,23 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: black;
-    background-color: azure;
+    background-color: darkgray;
 }
 
 header{
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
 }
 
 h1 {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: blue;
     text-align: center;
 }
 
 form{
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
     padding: 2rem;
     border: 1px saddlebrown;
@@ -46,7 +46,8 @@ fieldset{
 legend{
     padding: 0.5rem;
     color: navy;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 label, input, button, select, textarea{
@@ -72,16 +73,12 @@ input[type="checkbox"] {
 
 button{
     margin: 1rem;
-    background-color: darkgrey;
+    background-color: rgb(18, 1, 1);
     color:white; 
     border: 1rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     font-size: 1.5rem;
-}
-
-button :hover{
-    background-color: aqua;
 }
 
 footer {
@@ -99,8 +96,6 @@ footer {
 }
 
 .column1{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
-
-
