@@ -30,6 +30,37 @@
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.728234022702!2d-47.1137751194978!3d-23.936725430850355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfbe4ea1d1c503%3A0x99658b3a5daae7c8!2sCanoar!5e0!3m2!1spt-BR!2sbr!4v1720882501930!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <form>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-element column1">
+                    <label for="user_name">User Name:</label>
+                    <input type="text" id="user_name" name="user_name">
+                </div>
+                <div class="form-element column1">
+                    <label for="email">E-mail:</Address></label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="form-element column1">
+                    <label for="purpose">The purpose of Message</label>
+                    <br>
+                    <input type="radio" id="general-inquiry" name="general-inquiry" value="general-inquiry">
+                    <label for="general-inquiry">General Inquiry</label>
+                    <br>
+                    <input type="radio" id="reservation-question" name="reservation-question" value="reservation-question">
+                    <label for="size-medium">Reservation Question</label>
+                    <br>
+                    <input type="radio" id="website-suggestion" name="website-suggestion" value="website-suggestion">
+                    <label for="size-large">Website Suggestion</label>
+                    <br> 
+                </div> 
+                <div class="form-element column1">
+                    <label for="question2">3. How do you link an external stylesheet to an HTML document?</label>
+                    <input type="number" id="q4" name="q4">
+                </div>                        
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
  
         </main>
         <footer>
