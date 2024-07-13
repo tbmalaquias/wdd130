@@ -116,7 +116,7 @@
       margin: 0 auto;
       padding: 2rem;
       border: 1px saddlebrown;
-      border-radius: 0.5 rem;
+      border-radius: 0.5rem;
       background-color: var(--accent1-color);
       display: grid;
   }
@@ -126,7 +126,7 @@
       grid-gap: 0.5rem;
       margin: 1rem;
       border: 1px saddlebrown;
-      padding: auto;
+      padding: 1rem;
   }
   
   legend{
