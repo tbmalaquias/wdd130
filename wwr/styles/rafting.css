@@ -16,7 +16,8 @@
     }
 
     header {
-      display: grid;
+      display: flex;
+      justify-content: space-between;
       grid-template-columns: 20% 80%;
       align-items: center;
       background-color: var(--primary-color);
@@ -41,6 +42,8 @@
     
   }
   
+  
+
   /* Hero Heading (h1) */
   .hero h1 {
     position: absolute; /* Position heading absolutely within hero */
